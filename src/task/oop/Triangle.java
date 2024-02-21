@@ -1,7 +1,7 @@
 package task.oop;
 
 public class Triangle extends Figure {
-protected double z;
+    protected double z;
 
     public Triangle(double x, double y) {
         super(x, y);
@@ -12,16 +12,19 @@ protected double z;
         this.z = z;
     }
 
-    public double getFigurePerimeter () {
+    public double getFigurePerimeter() {
         return x + y + z;
     }
 
-        public double getFigureArea() {
-            return (x * y) /2;
-        }
+    public double getFigureArea() {
+        return (x * y) / 2;
+    }
+
+
+    public static void main(String[] args) {
+
 
     }
 
 
-
-
+}

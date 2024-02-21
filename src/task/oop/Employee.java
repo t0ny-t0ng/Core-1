@@ -11,7 +11,8 @@ public abstract class Employee {
 
     public static int idCounter = 0;
 
-    public Employee() {
+
+    public Employee(String name, int age, String education) {
         this.name = name;
         this.age = age;
         this.education = education;
@@ -23,7 +24,7 @@ public abstract class Employee {
 
     public abstract String getEmployeeInfo();
 
-    public abstract String getEmployeeList();
+    public abstract String getEmployeeNumber();
 
     public abstract int getSalesPlanStatus();
 
@@ -31,6 +32,12 @@ public abstract class Employee {
 
 
     public static void main(String[] args) {
+        Employee V_Lem = new DepHead("Vladimir Lem", 52, "High economic");
+        Employee M_Sax = new Secretary("Mona Sax", 43, "Teacher");
+        Employee M_Payne = new SalesManager("Max Payne", 49, "Economic");
+        Employee J_Bravura = new SalesManager("Jim Bravura", 58, "Economic");
+
+        System.out.println(V_Lem.getEmployeeInfo());
 
 
     }
