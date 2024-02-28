@@ -13,6 +13,7 @@ public class Child2 {
     public int summ(int first, int second, int third) {
         return first + second + third;
     }
+    public double summ (double first, double second, double third) {return first + second + third;}
 
 //  2. Второй метод примет 3 строки, внутри которых лежат числа, и вернет их сумму.
     public int summIntString(String numberString, String numberString2, String numberString3) {

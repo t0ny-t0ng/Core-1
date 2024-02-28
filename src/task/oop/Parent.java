@@ -49,6 +49,7 @@ public class Parent {
 
         System.out.println(new Child2().summ (6,6, 6));
         System.out.println();
+        System.out.println(new Child2().summ (1.8, 2.5, 3.2));
 
         System.out.println(new Child2().summIntString("10", "10" , "10"));
         System.out.println();
